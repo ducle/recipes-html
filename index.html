@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recipes">
+  <meta name="author" content="">
+  <!-- Le styles -->
+  <link href="./assets/css/bootstrap.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    }
+  </style>
+  <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+  <title>Recipes</title>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top header" id="head-wrapper">
+      <div class="nav-inner">
+        <div class="container-fluid">
+          <h1 id="logo"><a href="javascript:;">Recipes</a></h1>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li id="basket"><a href="#basket"><span>basket</span></a></li>
+              <li  id="favourites" class="active"><a href="#favourites" id=""><span>favourites</span></a></li>
+              <li  id="explore"><a href="#explore"><span>explore</span></a></li>
+            </ul>
+            <div class="pull-right auth-menu">
+              <a class="fb_button fb_button_medium displayNone"><span id="facebook-login-button" class="fb_button_text" title="Sign in using Facebook account">Login</span></a>
+            </div>
+            <div class="submenu">
+                    <a href="#" class="noti"> <strong>1</strong> recipes in  your basket</a>
+                <p class="pull-right">Add recipes  to your favourites while you browse. <br/> View different ways</p>
+            </div>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2" style="min-width:120px;">
+        <div class="sidebar-nav">
+            <form class="search">
+                    <input type="text" placeholder="Search" class="span3">
+            </form>
+              <ul class="nav nav-list">
+                <li class="nav-header">Sort by</li>
+                  <li><a href="#">a-z</a></li>
+                  <li><a href="#">recent</a></li>
+                  <li><a href="#">tags</a></li>
+
+                <li class="nav-header">Tags</li>
+                  <li><a href="#">Beef (12)</a></li>
+                  <li><a href="#">Dinner (12)</a></li>
+                  <li><a href="#">Deserts (12)</a></li>
+                  <li><a href="#">iPhone (12)</a></li>
+                  <li><a href="#"> <strong>> Emailed (12)</strong></a></li>
+              </ul>
+                <p class="creat-tag"><a href="#">+ create tag</a></p>
+            </div>
+          </div>
+        <div class='span10'>
+    	  <div id="recipes">
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img1.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/source2.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img2.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/source2.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img3.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img4.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img5.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img3.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img2.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img5.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img4.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img1.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img5.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img5.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+              <div class="recipe-item">
+                <div class="img-name">
+                  <a href="#"><img src="images/img5.jpg" alt="" /></a>
+                  <p>Cute recipe to make apple <br /> Dumplings:asdd/FSDFFF</p>
+               	</div>
+                <div class="source">
+                  <div class="clogo"><img src="images/by.jpg" alt="" /></div>
+                  <div class="btn-group">
+                    <button class='btn'>Action</button>
+                    <button class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#">Add to basket</a>
+                      </li>
+                      <li>
+                        <a href="#">Remove from favourites</a>
+                      </li>
+                      <!-- dropdown menu links -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end recipe item-->
+
+
+
+
+            </div> <!-- recipes-->
+
+
+
+            </div>  <!-- /span760-->
+
+        </div>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap-transition.js"></script>
+    <script src="./assets/js/bootstrap-alert.js"></script>
+    <script src="./assets/js/bootstrap-modal.js"></script>
+    <script src="./assets/js/bootstrap-dropdown.js"></script>
+    <script src="./assets/js/bootstrap-scrollspy.js"></script>
+    <script src="./assets/js/bootstrap-tab.js"></script>
+    <script src="./assets/js/bootstrap-tooltip.js"></script>
+    <script src="./assets/js/bootstrap-popover.js"></script>
+    <script src="./assets/js/bootstrap-button.js"></script>
+    <script src="./assets/js/bootstrap-collapse.js"></script>
+    <script src="./assets/js/bootstrap-carousel.js"></script>
+    <script src="./assets/js/bootstrap-typeahead.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+</body>
+</html>
+
